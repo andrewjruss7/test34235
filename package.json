@@ -6,22 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "c:atom": "hygen component atom",
+    "c:form-modal": "hygen component form-modal",
+    "c:layout": "hygen component layout",
+    "c:molecule": "hygen component molecule",
+    "c:organism": "hygen component organism",
+    "c:page": "hygen component page",
+    "c:template": "hygen component template"
   },
   "dependencies": {
+    "hygen": "^6.2.11",
+    "next": "14.0.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
     "postcss": "^8",
     "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.0"
+    "typescript": "^5"
   }
 }
