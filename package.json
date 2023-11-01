@@ -16,6 +16,7 @@
     "c:template": "hygen component template"
   },
   "dependencies": {
+    "classnames": "^2.3.2",
     "hygen": "^6.2.11",
     "next": "14.0.0",
     "react": "^18",
